@@ -1,0 +1,13 @@
+/* line 1, ../compass/sass/modules/blogs.scss */
+.blog {
+  -moz-box-shadow: #000 10px 5px 5px;
+  -webkit-box-shadow: #000 10px 5px 5px;
+  box-shadow: #000 10px 5px 5px;
+}
+
+/* line 2, ../compass/sass/modules/home.scss */
+.home .blog {
+  -moz-box-shadow: #000 10px 5px 5px;
+  -webkit-box-shadow: #000 10px 5px 5px;
+  box-shadow: #000 10px 5px 5px;
+}
