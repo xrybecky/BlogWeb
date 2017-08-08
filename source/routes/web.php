@@ -24,5 +24,5 @@ $app->get('/blog', function () use ($app){
 $app->get('/blog/{id}', function ($id) use ($app){
 
     $blog = Blogs::query()->findOrFail($id);
-    return view('blog', ['blog' => $blog]);
+    return view('blogs', ['blog' => $blog]);
 });
